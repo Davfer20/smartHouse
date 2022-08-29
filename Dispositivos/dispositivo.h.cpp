@@ -43,9 +43,19 @@ public:
         this->habitacion = pHabitacion;
     }
 
+    string getNombre()
+    {
+        return nombre;
+    }
+
     string getHabitacion()
     {
         return habitacion;
+    }
+
+    dispoTypes getType()
+    {
+        return type;
     }
 };
 

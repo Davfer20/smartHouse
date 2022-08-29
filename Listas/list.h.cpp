@@ -85,6 +85,7 @@ public:
         {
             result = search->getData();
         }
+
         return result;
     }
 };
